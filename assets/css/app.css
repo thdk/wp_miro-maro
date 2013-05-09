@@ -3,8 +3,17 @@
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
 @import url(http://fonts.googleapis.com/css?family=Philosopher:400);
-body {
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+.sidebar {
   font-family: 'Philosopher', sans-serif;
+}
+body {
+  font-family: 'Arimo', sans-serif;
 }
 /* phones (portrait and landscape) ----------- */
 /* phones (landscape) ----------- */
@@ -79,6 +88,16 @@ ul.nav li a {
 /* ==========================================================================
    Sidebar
    ========================================================================== */
+.sidebar ul {
+  list-style: none;
+  font-size: 1.2em;
+}
+.sidebar ul li {
+  padding: 3px 0 2px 0;
+}
+.sidebar ul li a {
+  color: #8ed7df;
+}
 .sidebar .widget-inner h3 {
   background-color: #8ed7df;
   heiht: 50px;
