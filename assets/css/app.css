@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400);
+body {
+  font-family: 'Philosopher', sans-serif;
+}
+/* phones (portrait and landscape) ----------- */
+/* phones (landscape) ----------- */
+/* phones (portrait) ----------- */
+/* tablets (portrait and landscape) ----------- */
+/* tablets (landscape) ----------- */
+/* tablets (portrait) ----------- */
+/* Desktops and laptops ----------- */
+@media screen and (min-width: 1224px) {
+  
+}
+/* Large screens ----------- */
+/* ==========================================================================
+   Base
+   ========================================================================== */
+body {
+  background-color: #f2f2f2;
+}
+h1 a {
+  color: #3c3f40;
+}
+h1 {
+  font-size: 2.6em;
+}
+.clear {
+  clear: both;
+}
+/* =============================================================================
+   Header
+   ========================================================================== */
+.headerTop {
+  height: 70px;
+}
+.headerTop .brand {
+  line-height: 70px;
+}
+#headerImage {
+  height: auto;
+}
+.main-nav {
+  margin-top: 24px;
+  background-color: #e2e2e2;
+}
+ul.nav li {
+  height: 60px;
+  line-height: 60px;
+  float: left;
+}
+ul.nav li a {
+  color: #3c3f40;
+  padding: 0 30px 0 30px;
+  font-size: 1.5em;
+}
+/* ==========================================================================
+   Content
+   ========================================================================== */
+.content {
+  margin-top: 20px;
+}
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+.main h1 {
+  color: #3c3f40;
+}
+.main article h2 a {
+  color: #389ba6;
+}
+.main article a {
+  color: #64bfc9;
+}
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+.sidebar .widget-inner h3 {
+  background-color: #8ed7df;
+  heiht: 50px;
+  line-height: 50px;
+  padding-left: 30px;
+  font-weight: normal;
+}
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+figure.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+}
